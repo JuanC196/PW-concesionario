@@ -1,2 +1,3 @@
-# Readme del proyecto
-## Aqui va toda la info del proyecto
+# Proyecto concesionario para Coder House
+## JuanSe Cortes Avila
+
