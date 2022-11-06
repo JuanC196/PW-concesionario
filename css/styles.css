@@ -173,6 +173,15 @@
     height: 46em;
   }
 
+  .grid-container-index-carrousel {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1em 1em;  
+    border: dashed;
+    
+  }
+ 
+
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
@@ -268,7 +277,7 @@
     
   }
   .grid-item-index {
-    width: 27em;
+    width: 29em;
     height: 46em;
     align-self: center;
   }
