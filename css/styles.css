@@ -252,8 +252,8 @@
     
   }
   .grid-item-catalogo {
-    height: 12em;
-    width: 8em;
+    height: 14em;
+    width: 10em;
     padding: 1em;
   }
 
@@ -265,7 +265,7 @@
     
   }
   .grid-item-index {
-    width: 25em;
+    width: 27em;
     height: 46em;
     align-self: center;
   }
@@ -273,7 +273,7 @@
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 25em;   
+    height: 20em;   
   }
 
   .grid-container-nav{
@@ -293,7 +293,7 @@
     
   }
   .grid-item-gallery {
-    width: 25em;
+    width: 27em;
     height: 29em;
   }
 
@@ -305,8 +305,8 @@
     
   }
   .grid-item-top3 {
-    width: 25em;
-    height: 35em;
+    width: 27em;
+    height: 32em;
     align-self: center; 
   }
 
@@ -317,8 +317,8 @@
     
   }
   .grid-item-contact {
-    width: 25em;
-    height: 37em;
+    width: 27em;
+    height: 38em;
   }
 
 }
@@ -356,8 +356,8 @@
     
   }
   .grid-item-catalogo {
-    height: 12em;
-    width: 8em;
+    height: 13em;
+    width: 9em;
     padding: 1em;
   }
 
@@ -369,7 +369,7 @@
     
   }
   .grid-item-index {
-    width: 25em;
+    width: 27em;
     height: 46em;
     align-self: center;
   }
@@ -377,7 +377,7 @@
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 12em;  
+    height: 7em;  
   }
 
   .grid-container-nav{
@@ -397,7 +397,7 @@
     
   }
   .grid-item-gallery {
-    width: 25em;
+    width: 27em;
     height: 29em;
   }
 
@@ -409,8 +409,8 @@
     
   }
   .grid-item-top3 {
-    width: 25em;
-    height: 35em;
+    width: 27em;
+    height: 32em;
     align-self: center; 
   }
 
@@ -421,8 +421,8 @@
     
   }
   .grid-item-contact {
-    width: 25em;
-    height: 37em;
+    width: 27em;
+    height: 38em;
   }
 
 }
