@@ -159,7 +159,7 @@
   .grid-item-catalogo {
     height: 14em;
     width: 10em;
-    padding: 2em;
+    padding: 1em;
   }
 
   .grid-container-index {
@@ -176,16 +176,18 @@
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 10em;  
+    height: 9em; 
   }
 
   .grid-container-nav{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    
   }
 
   .grid-container-nav-item{
-    height: 5em;
+    height: 3em;
+    
   }
   .grid-container-gallery {
     display: grid;
@@ -206,7 +208,7 @@
   }
   .grid-item-top3 {
     width: 27em;
-    height: 35em;
+    height: 32em;
   }
 
   .grid-container-contact {
