@@ -176,7 +176,6 @@
     display: grid;
     grid-template-columns: auto;
     height: 10em;  
-    border: dashed;
   }
 
   .grid-container-nav{
