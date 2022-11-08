@@ -150,6 +150,7 @@
   .rrss:hover{
     transform: scale(2, 2);
   }
+
   .grid-container-catalogo {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -175,12 +176,15 @@
 
   .grid-container-index-carrousel {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     gap: 1em 1em;  
-    border: dashed;
     
   }
  
+  .grid-item-carrousel {
+    width: 50em;
+    border: dashed;
+  }
 
   .grid-container-header {
     display: grid;
@@ -280,6 +284,18 @@
     width: 29em;
     height: 46em;
     align-self: center;
+  }
+
+  .grid-container-index-carrousel {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em 1em;  
+    
+  }
+ 
+  .grid-item-carrousel {
+    width: 28em;
+    
   }
 
   .grid-container-header {
@@ -384,6 +400,18 @@
     width: 27em;
     height: 46em;
     align-self: center;
+  }
+
+  .grid-container-index-carrousel {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em 1em;  
+    
+  }
+ 
+  .grid-item-carrousel {
+    width: 40em;
+    
   }
 
   .grid-container-header {
