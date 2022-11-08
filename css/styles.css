@@ -97,7 +97,6 @@
     width: 3em;
     height: 3em;
     border-radius: 3em;
-    background-color: #00cc00;
     position: fixed;
     bottom: 3em;
     right: 3em;
@@ -105,6 +104,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
   .d-flex1 {
