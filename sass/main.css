@@ -243,58 +243,6 @@ a:hover, a:active {
   justify-content: right;
 }
 
-.grid-container-contact {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 1em 1em;
-}
-
-.grid-item-contact {
-  width: 27em;
-  height: 38em;
-}
-
-.grid-container-footer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 10px;
-}
-
-.grid-item-footer1 {
-  grid-area: 1/1/2/2;
-}
-
-.grid-item-footer2 {
-  grid-area: 1/2/2/3;
-}
-
-.grid-item-footer3 {
-  grid-area: 1/3/2/4;
-}
-
-.grid-item-footer4 {
-  grid-area: 1/4/2/5;
-}
-
-.grid-item-footer5 {
-  grid-area: 1/5/2/6;
-}
-
-.grid-item-footer6 {
-  grid-area: 2/1/3/6;
-}
-
-.rrss {
-  transform: scale(1.5, 1.6);
-  transition: all 0.5s;
-}
-
-.rrss:hover {
-  transform: scale(2, 2);
-}
-
 /* Mobile First */
 @media screen and (max-width: 767px) {
   body {
@@ -302,20 +250,6 @@ a:hover, a:active {
     width: 100%;
     padding: 1em;
     background-image: linear-gradient(178.2deg, rgb(118, 8, 23) 10.9%, rgb(158, 12, 33) 62.6%);
-  }
-  .icono-whatsapp {
-    width: 3em;
-    height: 3em;
-    border-radius: 3em;
-    position: fixed;
-    bottom: 3em;
-    right: 3em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    display: none;
   }
   .bebasnue_title_font {
     font-family: bebasnue;
@@ -333,16 +267,20 @@ a:hover, a:active {
     font-style: italic;
     text-shadow: 2px 2px #ff0000;
   }
-  .grid-container-catalogo {
+  .grid-container-header {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 1em 2em;
+    grid-template-columns: auto;
+    height: 20em;
     width: 100%;
   }
-  .grid-item-catalogo {
-    height: 14em;
-    width: 10em;
-    padding: 1em;
+  .grid-container-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+  .grid-container-nav-item {
+    height: 5em;
+    width: 100%;
   }
   .grid-container-index {
     display: grid;
@@ -367,21 +305,6 @@ a:hover, a:active {
     justify-content: center;
     align-items: center;
   }
-  .grid-container-header {
-    display: grid;
-    grid-template-columns: auto;
-    height: 20em;
-    width: 100%;
-  }
-  .grid-container-nav {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 100%;
-  }
-  .grid-container-nav-item {
-    height: 5em;
-    width: 100%;
-  }
   .grid-container-gallery {
     display: grid;
     grid-template-columns: auto;
@@ -404,6 +327,17 @@ a:hover, a:active {
     width: 100%;
     height: 95%;
     align-self: center;
+  }
+  .grid-container-catalogo {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 2em;
+    width: 100%;
+  }
+  .grid-item-catalogo {
+    height: 14em;
+    width: 10em;
+    padding: 1em;
   }
   .grid-container-contact {
     display: grid;
@@ -464,15 +398,17 @@ a:hover, a:active {
     font-style: italic;
     text-shadow: 2px 2px #ff0000;
   }
-  .grid-container-catalogo {
+  .grid-container-header {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1em 2em;
+    grid-template-columns: auto;
+    height: 7em;
   }
-  .grid-item-catalogo {
-    height: 13em;
-    width: 9em;
-    padding: 1em;
+  .grid-container-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .grid-container-nav-item {
+    height: 5em;
   }
   .grid-container-index {
     display: grid;
@@ -493,18 +429,6 @@ a:hover, a:active {
   .grid-item-carrousel {
     width: 40em;
   }
-  .grid-container-header {
-    display: grid;
-    grid-template-columns: auto;
-    height: 7em;
-  }
-  .grid-container-nav {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-  }
-  .grid-container-nav-item {
-    height: 5em;
-  }
   .grid-container-gallery {
     display: grid;
     grid-template-columns: auto;
@@ -524,6 +448,16 @@ a:hover, a:active {
     width: 27em;
     height: 32em;
     align-self: center;
+  }
+  .grid-container-catalogo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em 2em;
+  }
+  .grid-item-catalogo {
+    height: 13em;
+    width: 9em;
+    padding: 1em;
   }
   .grid-container-contact {
     display: grid;
