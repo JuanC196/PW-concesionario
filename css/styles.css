@@ -108,7 +108,7 @@
 }
 
   .d-flex1 {
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: center;
     align-items: center; 
@@ -242,12 +242,15 @@ img {
   }
 
 /* Mobile First */
-@media screen and (max-width: 700px){
+@media screen and (max-width: 767px){
   body {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    padding: 1em;
     background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
 }
+
+
   .bebasnue_title_font {
     font-family: bebasnue;
     text-align: center;
@@ -270,6 +273,7 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1em 2em; 
+    width: 100%;
     
   }
   .grid-item-catalogo {
@@ -281,15 +285,16 @@ img {
   .grid-container-index {
     display: grid;
     grid-template-columns: auto;
-    gap: 1em 1em;  
+    gap: 0.5em 0.5em;  
     align-self: center;
-    
-    
+    width: 100%;
   }
   .grid-item-index {
-    width: 29em;
+    width: 100%;
     height: 44em;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+    
   }
 
   .grid-container-index-carrousel {
@@ -300,34 +305,42 @@ img {
   }
  
   .grid-item-carrousel {
-    width: 28em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 20em;   
+    height: 20em;
+    width: 100%; 
   }
 
   .grid-container-nav{
     display: grid;
     grid-template-columns: auto auto;
-    
+    width: 100%;
+   
   }
 
   .grid-container-nav-item{
     height: 5em;
+    width: 100%;
+    
   }
 
   .grid-container-gallery {
     display: grid;
     grid-template-columns: auto;
-    gap: 0.5em 0.5em;  
+    gap: 0.5em 0.5em;
+    align-self: center;
+    width: 100%;
     
   }
   .grid-item-gallery {
-    width: 27em;
-    height: 29em;
+    width: 100%;
+    height: 25em;
   }
 
   .grid-container-top3 {
@@ -335,29 +348,30 @@ img {
     grid-template-columns: auto;
     gap: 0.5em 0.5em; 
     align-self: center; 
-    
+    width: 100%;
   }
   .grid-item-top3 {
-    width: 27em;
-    height: 32em;
+    width: 100%;
+    height: 29em;
     align-self: center; 
   }
 
   .grid-container-contact {
     display: grid;
     grid-template-columns: auto;
-    gap: 1em 1em;  
+    gap: 1em 1em; 
+    width: 100%; 
     
   }
   .grid-item-contact {
-    width: 27em;
+    width: 100%;
     height: 38em;
   }
 
 }
 
 /* Tablet Second */
-@media screen and (min-width: 700px) and (max-width: 1280px){
+@media screen and (min-width: 768px) and (max-width: 1280px){
     body {
     margin: 0 auto;
     width: 90%;
