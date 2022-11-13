@@ -63,10 +63,10 @@
                     <form action="../form-result.php" target="_blank">
 
                         <p class="bebasnue_text_font">Nombre completo: 
-                        <input type="text" name="nombrecompleto" placeholder="Pepito Perez">
+                        <input type="text" name="nombrecompleto" placeholder="Pepito Perez" required>
                     </p>
                         <p class="bebasnue_text_font">Telefono de contacto: 
-                        <input type="text" name="nombrecompleto" placeholder="+12535989">
+                        <input type="text" name="nombrecompleto" placeholder="+12535989" required>
 
                     </p>
                         
@@ -74,29 +74,29 @@
 
                             Selecciona tus intereses:<br>
                         
-                            <input type="checkbox" name="vehiculo"> Vehiculos<br>
+                            <input type="checkbox" name="vehiculo" required> Vehiculos<br>
                         
-                            <input type="checkbox" name="camioneta"> Camionetas<br>
+                            <input type="checkbox" name="camioneta" required> Camionetas<br>
                         
-                            <input type="checkbox" name="deportivo"> Deportivos
+                            <input type="checkbox" name="deportivo" required> Deportivos
                         </p>
                           
                           <p class="bebasnue_text_font">
 
                             Presupuesto:<br>
                         
-                            <input type="radio" name="ingresos" value="menosde1000"> Menos de $50,000.00<br>
+                            <input type="radio" name="ingresos" value="menosde1000" required> Menos de $50,000.00<br>
                         
-                            <input type="radio" name="ingresos" value="de1000a5000"> De $100,000.00 a $50,000.00<br>
+                            <input type="radio" name="ingresos" value="de1000a5000" required> De $100,000.00 a $50,000.00<br>
                         
-                            <input type="radio" name="ingresos" value="masde5000"> Más de $100,000.00
+                            <input type="radio" name="ingresos" value="masde5000" required> Más de $100,000.00
                         
                           </p>
                           <p class="bebasnue_text_font">
 
                             Género:
                         
-                            <select name="genero">
+                            <select name="genero" required>
                         
                               <option>Masculino</option>
                         
@@ -106,11 +106,11 @@
                         
                           </p>
 
-                          <p class="bebasnue_text_font">
+                          <p class="bebasnue_text_font" >
 
                             Deja un mensaje:<br>
                         
-                            <textarea name="mensaje" placeholder="Hola estoy interesado en el vehiculo...."></textarea>
+                            <textarea name="mensaje" placeholder="Hola estoy interesado en el vehiculo...." required></textarea>
                         
                           </p>
                           <p class="bebasnue_text_font" >
