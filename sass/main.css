@@ -251,6 +251,9 @@ a:hover, a:active {
     padding: 1em;
     background-image: linear-gradient(178.2deg, rgb(118, 8, 23) 10.9%, rgb(158, 12, 33) 62.6%);
   }
+  * {
+    outline: 1px solid green;
+  }
   .bebasnue_title_font {
     font-family: bebasnue;
     text-align: center;
@@ -270,7 +273,7 @@ a:hover, a:active {
   .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 20em;
+    height: 16em;
     width: 100%;
   }
   .grid-container-nav {
@@ -279,7 +282,7 @@ a:hover, a:active {
     width: 100%;
   }
   .grid-container-nav-item {
-    height: 5em;
+    height: 2.5em;
     width: 100%;
   }
   .grid-container-index {
@@ -288,6 +291,7 @@ a:hover, a:active {
     gap: 0.5em 0.5em;
     align-self: center;
     width: 100%;
+    overflow: hidden;
   }
   .grid-item-index {
     width: 100%;
@@ -299,6 +303,7 @@ a:hover, a:active {
     display: grid;
     grid-template-columns: auto;
     gap: 1em 1em;
+    overflow: hidden;
   }
   .grid-item-carrousel {
     width: 100%;
@@ -308,9 +313,9 @@ a:hover, a:active {
   .grid-container-gallery {
     display: grid;
     grid-template-columns: auto;
-    gap: 0.5em 0.5em;
     align-self: center;
     width: 100%;
+    overflow: hidden;
   }
   .grid-item-gallery {
     width: 100%;
@@ -333,6 +338,7 @@ a:hover, a:active {
     grid-template-columns: auto auto;
     gap: 1em 2em;
     width: 100%;
+    overflow: hidden;
   }
   .grid-item-catalogo {
     height: 14em;
@@ -380,7 +386,10 @@ a:hover, a:active {
   body {
     margin: 0 auto;
     width: 90%;
-    padding: 20px;
+    padding: 1em;
+  }
+  * {
+    outline: 1px solid green;
   }
   .bebasnue_title_font {
     font-family: bebasnue;

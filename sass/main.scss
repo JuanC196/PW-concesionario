@@ -149,6 +149,13 @@
         padding: 1em;
         background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
     }
+
+    //Poder ver las cajas y contenedores con bordes
+
+    * {
+        outline: 1px solid green;
+    } 
+
   //Estilos de Fuentes
     .bebasnue_title_font {
         font-family: bebasnue;
@@ -171,7 +178,7 @@
     .grid-container-header {
     display: grid;
     grid-template-columns: auto;
-    height: 20em;
+    height: 16em;
     width: 100%; 
     }
 
@@ -182,7 +189,7 @@
     }
 
     .grid-container-nav-item{
-    height: 5em;
+    height: 2.5em;
     width: 100%;
     }
     .grid-container-index {
@@ -191,6 +198,7 @@
     gap: 0.5em 0.5em;  
     align-self: center;
     width: 100%; 
+    overflow: hidden;
     }
     .grid-item-index {
     width: 100%;
@@ -202,7 +210,8 @@
     .grid-container-index-carrousel {
     display: grid;
     grid-template-columns: auto;
-    gap: 1em 1em;  
+    gap: 1em 1em; 
+    overflow: hidden; 
     }
 
     .grid-item-carrousel {
@@ -214,9 +223,9 @@
     .grid-container-gallery {
         display: grid;
         grid-template-columns: auto;
-        gap: 0.5em 0.5em;
         align-self: center;
         width: 100%;
+        overflow: hidden;
     }
     .grid-item-gallery {
         width: 100%;
@@ -229,6 +238,7 @@
         gap: 0.5em 0.5em; 
         align-self: center; 
         width: 100%;
+        
     }
     .grid-item-top3 {
         width: 100%;
@@ -241,6 +251,7 @@
         grid-template-columns: auto auto;
         gap: 1em 2em; 
         width: 100%;  
+        overflow: hidden;
     }
     .grid-item-catalogo {
         height: 14em;
@@ -280,7 +291,11 @@
     body {
         margin: 0 auto;
         width: 90%;
-        padding: 20px;
+        padding: 1em;
+    } 
+
+    * {
+        outline: 1px solid green;
     } 
 
     //Estilos de Fuentes
