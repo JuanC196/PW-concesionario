@@ -1,0 +1,12 @@
+//Styles for Gallery Page
+
+.grid-container-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em 1em;  
+    
+  }
+  .grid-item-gallery {
+    width: 27em;
+    height: 29em;
+  }

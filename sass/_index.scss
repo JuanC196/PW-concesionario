@@ -1,0 +1,65 @@
+//Styles for Index Page
+
+.grid-container-header {
+    display: grid;
+    grid-template-columns: auto;
+    height: 9em; 
+  }
+
+  .grid-container-nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+  }
+
+  .grid-container-nav-item{
+    height: 3em;
+    
+  }
+
+.grid-container-index {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em 1em;  
+    
+  }
+    .grid-item-index {
+    width: 27em;
+    height: 46em;
+  }
+
+    .grid-container-index-carrousel {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 1em;  
+    
+  }
+
+  .grid-item-carrousel {
+    width: 50em;
+    
+  }
+
+  .grid-container-footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+
+    .grid-item-footer1 { grid-area: 1 / 1 / 2 / 2; }
+    .grid-item-footer2 { grid-area: 1 / 2 / 2 / 3; }
+    .grid-item-footer3 { grid-area: 1 / 3 / 2 / 4; }
+    .grid-item-footer4 { grid-area: 1 / 4 / 2 / 5; }
+    .grid-item-footer5{ grid-area: 1 / 5 / 2 / 6; }
+    .grid-item-footer6{ grid-area: 2 / 1 / 3 / 6;}
+
+    .rrss{
+        transform: scale(1.5, 1.6);
+        transition: all 0.5s;
+      }
+    
+        .rrss:hover{
+        transform: scale(2, 2);
+      }

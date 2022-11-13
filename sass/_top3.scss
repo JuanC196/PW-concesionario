@@ -1,0 +1,11 @@
+//Styles for Top3 Page
+.grid-container-top3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em 1em;  
+    
+  }
+  .grid-item-top3 {
+    width: 27em;
+    height: 32em;
+  }

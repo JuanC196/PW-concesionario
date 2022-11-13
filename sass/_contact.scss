@@ -1,0 +1,12 @@
+//Styles for Contact Page
+
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em 1em;  
+    
+  }
+  .grid-item-contact {
+    width: 27em;
+    height: 38em;
+  }
