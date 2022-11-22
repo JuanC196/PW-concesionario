@@ -8,4 +8,9 @@
   .grid-item-top3 {
     width: 27em;
     height: 32em;
+    padding: 1em;
+  }
+
+  .grid-item-top3:hover {
+    border-style: outset; 
   }
