@@ -11,39 +11,38 @@
     src:url("fonts/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 
-    .bebasnue_title_font {
+    @mixin bebasnue {
     font-family: bebasnue;
     text-align: center;
     color: white;
+    }
+
+    .bebasnue_title_font {
+    @include bebasnue;
     font-size: 4em;
     font-style: italic;
     text-shadow: 2px 2px #ff0000;
-}
+    }
 
     .bebasnue_text_titlefont {
-    font-family: bebasnue;
-    text-align: center;
-    color: white;
+    @include bebasnue;
     font-size: 25px;
     font-style: italic;
     text-shadow: 2px 2px #ff0000;
-}
+    }
 
     .bebasnue_text_titlefont-catalogo {
-    font-family: bebasnue;
-    text-align: center;
+    @include bebasnue;    
     color: whitesmoke;
     font-size: 28px;
     font-style: italic;
     text-shadow: 2px 2px black;
-}
+    }
 
     .bebasnue_text_font {
-    font-family: bebasnue;
-    text-align: center;
+    @include bebasnue;    
     color: white;
-    
-}
+    }
 
 //Body General 
     body {
@@ -92,30 +91,30 @@
 
 //Hyperlinks Styles
 
-a:link, a:visited {  
+    a:link, a:visited {  
     color: white; 
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-  }
+    }
 
-  .style1:hover, .style1:active {
+    .style1:hover, .style1:active {
     border: outset;
     text-decoration: none;
     border-radius: 2em; 
-  }
+    }
   
   //Box Styles
-  .main_box{
+    .main_box{
     border-radius: 5px;
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
     background: rgb(154,31,31);
     background: radial-gradient(circle, rgba(154,31,31,1) 0%, rgba(253,29,29,1) 50%, rgba(181,29,29,1) 100%);
-}
+    }
 
-  .main_box_brand{
+    .main_box_brand{
     border-radius: 10px;
     margin-top: 1em; 
     margin-bottom: 1em;
@@ -124,32 +123,34 @@ a:link, a:visited {
 }
 
     //Flex Styles
-  .d-flex1 {
+    @mixin Flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    }
+
+    .d-flex1 {
+    @include flex;
     display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-}
+    }
 
-  .d-flex2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+    .d-flex2 {
+    @include flex;
+    display: flex;  
+    }
+
     .d-flex-footer{
+    @include flex;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
+    }
 
-.grid-container-footer{
+    .grid-container-footer{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 10px;
-  }
+    }
 
     .grid-item-footer1 { grid-area: 1 / 1 / 2 / 2; }
     .grid-item-footer2 { grid-area: 1 / 2 / 2 / 3; }
