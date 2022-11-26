@@ -12,37 +12,48 @@
 }
 
     @mixin bebasnue {
-    font-family: bebasnue;
-    text-align: center;
-    color: white;
+        font-family: bebasnue;
+        text-align: center;
+        color: white;
     }
 
     .bebasnue_title_font {
     @include bebasnue;
-    font-size: 4em;
-    font-style: italic;
-    text-shadow: 2px 2px #ff0000;
+        font-size: 4em;
+        font-style: italic;
+        text-shadow: 2px 2px #ff0000;
     }
 
     .bebasnue_text_titlefont {
     @include bebasnue;
-    font-size: 25px;
-    font-style: italic;
-    text-shadow: 2px 2px #ff0000;
+        font-size: 25px;
+        font-style: italic;
+        text-shadow: 2px 2px #ff0000;
     }
 
     .bebasnue_text_titlefont-catalogo {
     @include bebasnue;    
-    color: whitesmoke;
-    font-size: 28px;
-    font-style: italic;
-    text-shadow: 2px 2px black;
+        color: whitesmoke;
+        font-size: 28px;
+        font-style: italic;
+        text-shadow: 2px 2px black;
     }
 
     .bebasnue_text_font {
     @include bebasnue;    
-    color: white;
+        color: white;
+        font-size: 16px;
+        font-style: italic;
+        text-shadow: 2px 2px black;
     }
+
+    .bebasnue_text_font2 {
+        @include bebasnue;    
+        color: white;
+        font-size: 22px;
+        font-style: italic;
+        text-shadow: 2px 2px black;
+        }
 
 //Body General 
     body {
@@ -67,6 +78,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 5px;
     }
 
     input[type=text]:focus {
@@ -486,7 +498,7 @@
     }
     .grid-item-contact {
         width: 27em;
-        height: 38em;
+        height: 39em;
     }
     .grid-container-footer{
         display: grid;

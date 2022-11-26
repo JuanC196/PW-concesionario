@@ -20,8 +20,8 @@
 }
 
 .grid-item-index {
-  width: 27em;
-  height: 46em;
+  width: 25em;
+  height: 45em;
 }
 
 .grid-item-index:hover {
@@ -102,7 +102,7 @@
 
 .grid-item-contact {
   width: 27em;
-  height: 38em;
+  height: 39em;
 }
 
 @font-face {
@@ -142,6 +142,19 @@
   text-align: center;
   color: white;
   color: white;
+  font-size: 16px;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+
+.bebasnue_text_font2 {
+  font-family: bebasnue;
+  text-align: center;
+  color: white;
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+  text-shadow: 2px 2px black;
 }
 
 body {
@@ -165,6 +178,7 @@ body img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
 }
 body input[type=text]:focus {
   border: 3px solid #555;
@@ -546,7 +560,7 @@ a:link, a:visited {
   }
   .grid-item-contact {
     width: 27em;
-    height: 38em;
+    height: 39em;
   }
   .grid-container-footer {
     display: grid;
